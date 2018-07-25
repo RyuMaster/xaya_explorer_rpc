@@ -1,0 +1,51 @@
+{
+  "name": "xaya-explorer-rpc",
+  "version": "1.0.0",
+  "description": "JSON-RPC library for use with Xaya Explorer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyuMaster/xaya_explorer_rpc.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "cash",
+    "async",
+    "await",
+    "es6",
+    "library",
+    "js",
+    "javascript",
+    "jsonrpc",
+    "json-rpc",
+    "bitcoin",
+    "node",
+    "bitcoin",
+    "abc",
+    "bitcoin",
+    "unlimited",
+    "bitcoin",
+    "classic",
+    "bitcoin",
+    "xt",
+    "copay",
+    "bitpay",
+	"xaya"
+  ],
+  "author": "Orvald Maxwell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RyuMaster/xaya_explorer_rpcissues"
+  },
+  "homepage": "https://github.com/RyuMaster/xaya_explorer_rpc#readme",
+  "devDependencies": {
+    "axios": "^0.16.2"
+  },
+  "dependencies": {
+    "npm-address-translator": "^1.0.4",
+    "qr-image": "^3.2.0"
+  }
+}
