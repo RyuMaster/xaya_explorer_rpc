@@ -94,15 +94,15 @@ class XayaExplorerRPC {
    * @param  {String} blockhash
    * @return {obj} data       returns the block info
    */
-  async getBlock(...params) {
-    let req = await this.performMethod('getBlock', ...params);
+  async getblock(...params) {
+    let req = await this.performMethod('getblock', ...params);
 
     return axios(req)
       .then(response => {
         return response.data.result;
       })
       .catch(err => {
-        console.log('failed in getBlock', err);
+        console.log('failed in getblock', err);
         return err.message;
       });
   }
