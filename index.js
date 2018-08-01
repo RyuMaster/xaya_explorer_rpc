@@ -88,6 +88,21 @@ class XayaExplorerRPC {
         console.log('failed in getblockhash', err.response.data);
       });
   }
+  
+  /**
+   * @return {Object} array   version, walletversion, balance, block height, difficulty, tx fee
+   */
+  async getbestblockhash() {
+    let req = await this.performMethod('getbestblockhash');
+
+    return axios(req)
+      .then(response => {
+        return response.data.result;
+      })
+      .catch(err => {
+        console.log('failed in getbestblockhash', err.response.data);
+      });
+  }    
 
 
   /**
